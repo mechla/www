@@ -1,0 +1,520 @@
+#body {
+  margin: 0 0 0 0 !important; 
+  width:100%;
+  height:100%;
+  position: absolute;
+}
+#game {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -240px;
+  margin-top: 0px;
+  width: 480px;
+  height: 320px;
+}
+/*start_pag*/
+#background{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-image: url("../assets/YG_play-BG(phone).jpg");
+    width: 480px;
+    height: 320px;
+    z-index: 0;
+  }
+#white{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-color: white;
+  width: 480px;
+  height: 320px;
+  z-index: 11024;
+}
+#start_page_bg{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-color: white;
+  background-image: url("../assets/YG_splash(phone).jpg");
+  width: 480px;
+  height: 320px;
+  z-index: 1024;
+}
+#logo_yard_grab{
+  position: absolute;
+  top:0px;
+  left: 53px;
+  background-image: url("../assets/YG_logo(phone).png");
+  width: 374px;
+  height: 155px;
+  z-index: 1025;
+}
+#instruction_button{
+  position: absolute;
+  top:256px;
+  left: 0px;
+  background-image: url("../assets/YG_BUT_instructions(phone).png");
+  width: 212px;
+  height: 40px;
+  z-index: 1026;
+}
+#play_button{
+  position: absolute;
+  top:256px;
+  left: 326px;
+  background-image: url("../assets/YG_BUT_play-now(phone).png");
+  width: 154px;
+  height: 40px;
+  z-index: 1027;
+}
+#heads_button{
+  position: absolute;
+  top:100px;
+  left: 160px;
+  background-image: url("../assets/coins/YG_coinflip-anim_07(phone).png");
+  width: 158px;
+  height: 162px;
+  z-index: 200;
+}
+#coin_page_bg{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG-transparent_coin_bg.png");
+  width: 480px;
+  height: 320px;
+  z-index: 199;
+
+}
+#tails_button{
+  position: absolute;
+  top:100px;
+  left: 160px;
+  background-image: url("../assets/coins/YG_coinflip-anim_01(phone).png");
+  width: 158px;
+  height: 162px;
+  z-index: 200;
+}
+#play{
+  position: absolute;
+  top:250px;
+  left: 305px;
+  background-image: url("../assets/YG_BUT_play-now(phone).png");
+  width: 77px;
+  height: 44px;
+  z-index: 300;
+}
+#coin_page{
+  background-repeat: no-repeat;
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 480px;
+  height: 320px;
+  z-index: 101;
+}
+#coin{
+  position: absolute;
+  left:160px;
+  top:100px;
+  height: 170px;
+  z-index: 201;
+}
+#flip_coin_button {
+  background-image: url("../assets/YG_coinflip-header(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top:20px;
+  left:0px;
+  width: 302px;
+  height: 51px;
+  z-index: 201;
+}
+#you_pick_firs {
+  background-image: url("../assets/YG_coinflip-win-msg(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top:270px;
+  left:261px;
+  width: 219px;
+  height: 36px;
+  z-index: 201;
+
+}
+#al_pick_firs {
+  background-image: url("../assets/YG_coinflip-lose-msg(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top:270px;
+  left:167px;
+  width: 313px;
+  height: 36px;
+  z-index: 201;
+}
+
+#background{
+  background-image: url("../assets/YG_play-BG(phone).jpg");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 480px;
+  height: 320px;
+}
+#star{
+  position: absolute;
+  left:102px;
+  top:24px;
+  z-index: 102;
+}
+#card_page_bg{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG-transparent_coin_bg.png");
+  width: 480px;
+  height: 320px;
+  z-index: 99;
+}
+#big_card_blue_bg
+{
+  background-image: url("../assets/cards/YG_card-bg-BLUE(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 17px;
+  left: 51px;
+  z-index: 100;
+  width: 378px;
+  height: 283px;
+}
+#big_card_red_bg
+{
+  background-image: url("../assets/cards/YG_card-bg-RED(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 17px;
+  left: 51px;
+  z-index: 101;
+  width: 378px;
+  height: 283px;
+}
+#big_card_img
+{
+
+  position: absolute;
+  top: 17px;
+  left: 51px;
+  z-index: 103;
+  width: 100px;
+  height: 100px;
+}
+#avatar_1{
+  background-image: url("../assets/YG_avatar-ish(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 51;
+  width: 71px;
+  height: 72px;
+}
+#avatar_2{
+  background-image: url("../assets/YG_avatar-WC(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 409px;
+  z-index: 51;
+  width: 71px;
+  height: 72px;
+}
+#avatar_1_active{
+  background-image: url("../assets/YG_avatar-ish-2(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 51;
+  width: 71px;
+  height: 72px;
+}
+#avatar_2_active{
+  background-image: url("../assets/YG_avatar-WC-2(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 409px;
+  z-index: 51;
+  width: 71px;
+  height: 72px;
+}
+#avatar_1_go{
+  background-image: url("../assets/YG_goflag_Lblue(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  width: 52px;
+  height: 34px;
+}
+#avatar_2_go{
+  background-image: url("../assets/YG_goflag_Rred(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 65px;
+  left: 428px;
+  width: 52px;
+  height: 34px;
+}
+#avatar_2{
+  background-image: url("../assets/YG_avatar-WC(phone).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 409px;
+  z-index: 51;
+  width: 71px;
+  height: 72px;
+}
+#ball{
+  top:0px;
+  left:63px;
+  position: absolute;
+  margin-top: 12px;
+  background-image: url("../assets/YG_progressbar_marker(phone).png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 72px;
+  z-index: 51;
+}
+#field_container{
+  position: absolute;
+  top:3px;
+  left:81px;
+  width: 318px;
+  height: 61px;
+  overflow: hidden;
+
+}
+#field {
+  position: absolute;
+  top:0px;
+  left:0px;
+  background-image: url("../assets/YG_progressbar-lines(phone).png");
+  width: 318px;
+  height: 61px;
+  z-index: 50;
+}
+#actions_content{
+  position: absolute;
+  top:260px !important;
+  left:0px !important;
+}
+#game_strip{
+  background-image: url("../assets/YG_progressbar_gradient(phone).png");
+  position: absolute;
+  top:8px;
+  left:0px;
+  width: 260px;
+  height: 50px;
+  z-index: 0;
+}
+
+#card0{
+  position: absolute;
+  top:70px;
+  left: 65px;
+  background-image: url("../assets/YG_play-card_01(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card1{
+  position: absolute;
+  top:70px;
+  left: 155px;
+  background-image: url("../assets/YG_play-card_02(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card2{
+  position: absolute;
+  top:70px;
+  left: 245px;
+  background-image: url("../assets/YG_play-card_01(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card3{
+  position: absolute;
+  top:70px;
+  left: 335px;
+  background-image: url("../assets/YG_play-card_02(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card4{
+  position: absolute;
+  top:132px;
+  left: 65px;
+  background-image: url("../assets/YG_play-card_02(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card5{
+  position: absolute;
+  top:132px;
+  left: 155px;
+  background-image: url("../assets/YG_play-card_01(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card6{
+  position: absolute;
+  top:132px;
+  left: 245px;
+  background-image: url("../assets/YG_play-card_02(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card7{
+  position: absolute;
+  top:132px;
+  left: 335px;
+  background-image: url("../assets/YG_play-card_01(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card8{
+  position: absolute;
+  top:194px;
+  left: 65px;
+  background-image: url("../assets/YG_play-card_01(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card9{
+  position: absolute;
+  top:194px;
+  left: 155px;
+  background-image: url("../assets/YG_play-card_02(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card10{
+  position: absolute;
+  top:194px;
+  left: 245px;
+  background-image: url("../assets/YG_play-card_01(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card11{
+  position: absolute;
+  top:194px;
+  left: 335px;
+  background-image: url("../assets/YG_play-card_02(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card12{
+  position: absolute;
+  top:256px;
+  left: 65px;
+  background-image: url("../assets/YG_play-card_02(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card13{
+  position: absolute;
+  top:256px;
+  left: 155px;
+  background-image: url("../assets/YG_play-card_01(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card14{
+  position: absolute;
+  top:256px;
+  left: 245px;
+  background-image: url("../assets/YG_play-card_02(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#card15{
+  position: absolute;
+  top:256px;
+  left: 335px;
+  background-image: url("../assets/YG_play-card_01(phone).png");
+  width: 85px;
+  height: 60px;
+}
+#you_won{
+  position: absolute;
+  top:14px;
+  left: 0px;
+  background-image: url("../assets/YG_you-win_header(phone).png");
+  width: 245px;
+  height: 57px;
+}
+#you_lost{
+  position: absolute;
+  top:14px;
+  left: 0px;
+  background-image: url("../assets/YG_you-lose_header(phone).png");
+  width: 244px;
+  height: 56px;
+}
+#play_again{
+  position: absolute;
+  top:276px !important;
+  left: 310px !important;
+  background-image: url("../assets/YG_BUT_play-again(phone).png");
+  width: 170px;
+  height: 40px;
+}
+#game_over_bg_win{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG_win-screen(phone).jpg");
+  width: 480px;
+  height: 320px;
+}
+#game_over_bg{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG_lose-screen(phone).jpg");
+  width: 480px;
+  height: 320px;
+}
+
+#instruction{
+  position: absolute;
+  top:36px;
+  left: 6px;
+  background-image: url("../assets/YG_instruction-overlay(phone).png");
+  width: 468px;
+  height: 249px;
+  z-index: 2501;
+}
+#loader{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG_logo(phone).png");
+  width: 480px;
+  height: 320px;
+  z-index: 500;
+}
+/*#testCanvas{
+  height: 170px;
+  width: 170px;
+}
+#testStar{  
+  height: 250px;
+  width: 250px;
+}*/
+

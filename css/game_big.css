@@ -1,0 +1,518 @@
+#body {
+  margin: 0 0 0 0 !important; 
+  width:100%;
+  height:100%;
+  position: absolute;
+}
+#game {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -512px;
+  margin-top: 0px;
+  width: 1024px;
+  height: 768px;
+}
+/*start_pag*/
+#white{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-color: white;
+  width: 1024px;
+  height: 768px;
+  z-index: 11024;
+}
+#background{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG_play-BG(tablet).jpg");
+  width: 1024px;
+  height: 768px;
+    z-index: 0;
+  }
+#start_page_bg{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-color: white;
+  background-image: url("../assets/YG_splash(tablet).jpg");
+  width: 1024px;
+  height: 768px;
+  z-index: 1024;
+}
+#logo_yard_grab{
+  position: absolute;
+  top:0px;
+  left: 113px;
+  background-image: url("../assets/YG_logo(tablet).png");
+  width: 797px;
+  height: 330px;
+  z-index: 1025;
+}
+#instruction_button{
+  position: absolute;
+  top:649px;
+  left: 0px;
+  background-image: url("../assets/YG_BUT_instructions(tablet).png");
+  width: 418px;
+  height: 77px;
+  z-index: 1026;
+}
+#play_button{
+  position: absolute;
+  top:649px;
+  left: 725px;
+  background-image: url("../assets/YG_BUT_play-now(tablet).png");
+  width: 299px;
+  height: 77px;
+  z-index: 1027;
+}
+#heads_button{
+  position: absolute;
+  top:219px;
+  left: 345px;
+  background-image: url("../assets/coins/YG_coinflip-anim_07(tablet).png");
+  width: 330px;
+  height: 330px;
+  z-index: 200;
+}
+#coin_page_bg{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG-transparent_coin_bg.png");
+  width: 1024px;
+  height: 768px;
+  z-index: 199;
+
+}
+#tails_button{
+  position: absolute;
+  top:219px;
+  left: 345px;
+  background-image: url("../assets/coins/YG_coinflip-anim_01(tablet).png");
+  width: 330px;
+  height: 330px;
+  z-index: 200;
+}
+#play{
+  position: absolute;
+  top:250px;
+  left: 305px;
+  background-image: url("../assets/YG_BUT_play-now(tablet).png");
+  width: 299px;
+  height: 79px;
+  z-index: 300;
+}
+#coin_page{
+  background-repeat: no-repeat;
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 1024px;
+  height: 768px;
+  z-index: 101;
+}
+#coin_big{
+  position: absolute;
+  top:219px;
+  left: 345px;
+  width: 330px;
+  height: 330px;
+  z-index: 201;
+}
+#flip_coin_button {
+  background-image: url("../assets/YG_coinflip-header(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top:20px;
+  left:0px;
+  width: 636px;
+  height: 128px;
+  z-index: 201;
+}
+#you_pick_firs {
+  background-image: url("../assets/YG_coinflip-win-msg(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top:650px;
+  left:502px;
+  width: 522px;
+  height: 87px;
+  z-index: 201;
+
+}
+#al_pick_firs {
+  background-image: url("../assets/YG_coinflip-lose-msg(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top:650px;
+  left:283px;
+  width: 741px;
+  height: 87px;
+  z-index: 201;
+}
+
+#background{
+  background-image: url("../assets/YG_play-BG(tablet).jpg");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 1024px;
+  height: 768px;
+}
+#card_page_bg{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG-transparent_coin_bg.png");
+  width: 1024px;
+  height: 768px;
+  z-index: 99;
+}
+#star_big{
+  position: absolute;
+  top: 106px;
+  left: 242px;
+  z-index: 102;
+}
+#big_card_blue_bg
+{
+  background-image: url("../assets/cards/YG_card-bg-BLUE(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 106px;
+  left: 142px;
+  z-index: 100;
+  width: 742px;
+  height: 556px;
+}
+#big_card_red_bg
+{
+  background-image: url("../assets/cards/YG_card-bg-RED(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 106px;
+  left: 142px;
+  z-index: 101;
+  width: 742px;
+  height: 556px;
+}
+#big_card_img
+{
+  position: absolute;
+  top: 106px;
+  left: 141px;
+  z-index: 103;
+  width: 100px;
+  height: 100px;
+  width: 742px;
+  height: 556px;
+}
+#avatar_1{
+  background-image: url("../assets/YG_avatar-ish(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 51;
+  width: 154px;
+  height: 157px;
+}
+#avatar_1_active{
+  background-image: url("../assets/YG_avatar-ish-2(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 51;
+  width: 154px;
+  height: 157px;
+}
+#avatar_2{
+  background-image: url("../assets/YG_avatar-WC(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 870px;
+  z-index: 51;
+  width: 154px;
+  height: 157px;
+}
+#avatar_2_active{
+  background-image: url("../assets/YG_avatar-WC-2(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 870px;
+  z-index: 51;
+  width: 154px;
+  height: 157px;
+}
+#avatar_1_go{
+  background-image: url("../assets/YG_goflag_Lblue(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 149px;
+  left: 0px;
+  width: 103px;
+  height: 69px;
+}
+#avatar_2_go{
+  background-image: url("../assets/YG_goflag_Rred(tablet).png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 149px;
+  left: 921px;
+  width: 103px;
+  height: 69px;
+}
+
+#ball{
+  top:0px;
+  left:63px;
+  position: absolute;
+  margin-top: 32px;
+  background-image: url("../assets/YG_progressbar_marker(tablet).png");
+  background-repeat: no-repeat;
+  width: 53px;
+  height: 90px;
+  z-index: 51;
+}
+#field_container{
+  position: absolute;
+  top:3px;
+  left:164px;
+  width: 696px;
+  height: 134px;
+  overflow: hidden;
+
+}
+#field {
+  position: absolute;
+  top:0px;
+  left:0px;
+  background-image: url("../assets/YG_progressbar-lines(tablet).png");
+  width: 696px;
+  height: 134px;
+  z-index: 50;
+  
+}
+#actions_content{
+  position: absolute;
+  top:260px !important;
+  left:0px !important;
+}
+#game_strip{
+  background-image: url("../assets/YG_progressbar_gradient(tablet).png");
+  position: absolute;
+  top:18px;
+  left:0px;
+  width: 600px;
+  height: 109px;
+  z-index: 0;
+}
+
+#card0{
+  position: absolute;
+  top:165px;
+  left: 94px;
+  background-image: url("../assets/YG_play-card_01(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card1{
+  position: absolute;
+  top:165px;
+  left: 305px;
+  background-image: url("../assets/YG_play-card_02(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card2{
+  position: absolute;
+  top:165px;
+  left: 516px;
+  background-image: url("../assets/YG_play-card_01(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card3{
+  position: absolute;
+  top:165px;
+  left: 727px;
+  background-image: url("../assets/YG_play-card_02(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card4{
+  position: absolute;
+  top:316px;
+  left: 94px;
+  background-image: url("../assets/YG_play-card_02(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card5{
+  position: absolute;
+  top:316px;
+  left: 305px;
+  background-image: url("../assets/YG_play-card_01(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card6{
+  position: absolute;
+  top:316px;
+  left: 516px;
+  background-image: url("../assets/YG_play-card_02(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card7{
+  position: absolute;
+  top:316px;
+  left: 727px;
+  background-image: url("../assets/YG_play-card_01(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card8{
+  position: absolute;
+  top: 467px;
+  left: 94px;
+  background-image: url("../assets/YG_play-card_01(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card9{
+  position: absolute;
+  top: 467px;
+  left: 305px;
+  background-image: url("../assets/YG_play-card_02(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card10{
+  position: absolute;
+  top: 467px;
+  left: 516px;
+  background-image: url("../assets/YG_play-card_01(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card11{
+  position: absolute;
+  top: 467px;
+  left: 727px;
+  background-image: url("../assets/YG_play-card_02(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card12{
+  position: absolute;
+  top: 618px;
+  left: 94px;
+  background-image: url("../assets/YG_play-card_02(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card13{
+  position: absolute;
+  top: 618px;
+  left: 305px;
+  background-image: url("../assets/YG_play-card_01(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card14{
+  position: absolute;
+  top: 618px;
+  left: 516px;
+  background-image: url("../assets/YG_play-card_02(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#card15{
+  position: absolute;
+  top: 618px;
+  left: 727px;
+  background-image: url("../assets/YG_play-card_01(tablet).png");
+  width: 203px;
+  height: 143px;
+}
+#you_won{
+  position: absolute;
+  top:14px;
+  left: 0px;
+  background-image: url("../assets/YG_you-win_header(tablet).png");
+  width: 573px;
+  height: 135px;
+  z-index: 2502;
+}
+#you_lost{
+  position: absolute;
+  top:14px;
+  left: 0px;
+  background-image: url("../assets/YG_you-lose_header(tablet).png");
+  width: 575px;
+  height: 139px;
+  z-index: 2502;
+}
+#play_again{
+  position: absolute;
+  top:650px !important;
+  left: 693px !important;
+  background-image: url("../assets/YG_BUT_play-again(tablet).png");
+  width: 331px;
+  height: 77px;
+  z-index: 2502;
+}
+#game_over_bg_win{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG_win-screen(tablet).jpg");
+  width: 1024px;
+  height: 768px;
+  z-index: 2501;
+}
+#game_over_bg{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG_lose-screen(tablet).jpg");
+  width: 1024px;
+  height: 768px;
+}
+
+#instruction{
+  position: absolute;
+  top:103px;
+  left: 21px;
+  background-image: url("../assets/YG_instruction-overlay(tablet).png");
+  width: 982px;
+  height: 562px;
+  z-index: 2501;
+}
+/*#loader{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-image: url("../assets/YG_logo(tablet).png");
+  width: 1024px;
+  height: 768px;
+  z-index: 500;
+}*/
+/*#testCanvas{
+  height: 170px;
+  width: 170px;
+}
+#testStar{  
+  height: 250px;
+  width: 250px;
+}*/
+
