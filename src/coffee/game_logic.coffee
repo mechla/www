@@ -7,6 +7,7 @@ class GameLogic
     @ball_yard_possition = 50
     @winner
     @turns = 0
+    @card_is_loaded = false
 
   init: ()->
     avatars.set_ball()
@@ -77,10 +78,21 @@ class GameLogic
 
   show_big_card: ()->
     $("#big_card").show()
-    TweenLite.delayedCall(3.5,game.hide_big_crad)
+    
 
   hide_big_crad: ()->
     $("#big_card").hide()
+    TweenLite.delayedCall(.1,avatars.move_ball, [game.ball_yard_possition])
+    if game.user_turn 
+      TweenLite.delayedCall(1,game.al_is_plaing)
+    else
+      TweenLite.delayedCall(1,game.user_is_playing)
+
+  card_loaded: ()->
+    @card_is_loaded = true
+    TweenLite.delayedCall(4.5,game.hide_big_crad)
+    # @show_big_card()
+    console.log "CARD LOADE"
 
   
   update_ball: (action)->
@@ -103,26 +115,26 @@ class GameLogic
           @ball_yard_possition = -5
 
         $("#is_ball").html "yard: "+@ball_yard_possition
-        TweenLite.delayedCall(4.4,avatars.move_ball, [@ball_yard_possition])
+        # TweenLite.delayedCall(4.4,avatars.move_ball, [@ball_yard_possition])
         return true
     
     if(@ball_yard_possition <= 0)
       @game_over("al",false)
       @ball_yard_possition = -5
-      TweenLite.delayedCall(4.5,avatars.move_ball, [@ball_yard_possition])
+      # TweenLite.delayedCall(4.5,avatars.move_ball, [@ball_yard_possition])
       return true
     else 
       if(@ball_yard_possition >= 100)
         @game_over("player",false)
         @ball_yard_possition = 105
-        TweenLite.delayedCall(4.5,avatars.move_ball, [@ball_yard_possition])
+        # TweenLite.delayedCall(4.5,avatars.move_ball, [@ball_yard_possition])
         return true
-      else 
-        if game.user_turn 
-          TweenLite.delayedCall(7,@al_is_plaing)
-        else
-          TweenLite.delayedCall(7,@user_is_playing)
-      TweenLite.delayedCall(4.5,avatars.move_ball, [@ball_yard_possition])
+      # else 
+      #   if game.user_turn 
+      #     TweenLite.delayedCall(7,@al_is_plaing)
+      #   else
+      #     TweenLite.delayedCall(7,@user_is_playing)
+      # TweenLite.delayedCall(4.5,avatars.move_ball, [@ball_yard_possition])
 
   game_over: (winner,win)->
     @winner = winner

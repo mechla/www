@@ -11,7 +11,8 @@ class CardsCollection extends  Backbone.Collection
       @.remove(card)
       $("#big_card_red_bg").hide()
       $("#big_card_blue_bg").show()
-      $("#big_card_img").html("<img src='assets/cards/#{card.get("blue")}' />")
+      $("#big_card_img").html("<img onload='game.card_loaded()' src='assets/cards/#{card.get("blue")}' />")
+
     else
       if start
         console.log "RANDOM start =  true " 
@@ -23,8 +24,9 @@ class CardsCollection extends  Backbone.Collection
       @.remove(card)
       $("#big_card_red_bg").show()
       $("#big_card_blue_bg").hide()
-      $("#big_card_img").html("<img src='assets/cards/#{card.get("red")}' />")
+      $("#big_card_img").html("<img onload='game.card_loaded()' src='assets/cards/#{card.get("red")}' />")
     # console.log  card
+
     card
 
 
